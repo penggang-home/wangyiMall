@@ -3,6 +3,15 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// npm install vue-lazyload --save
+import VueLazyload from "vue-lazyload"
+Vue.use(VueLazyload)
+
+// cnpm install vant --save
+import Vant from "vant"
+import "vant/lib/index.css"
+Vue.use(Vant)
+
 Vue.config.productionTip = false
 
 new Vue({
